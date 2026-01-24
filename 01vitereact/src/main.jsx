@@ -1,15 +1,15 @@
-import { createRoot } from "react-dom/client";
+// import { createRoot } from "react-dom/client";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 
-function MyApp() {
-  return (
-    <div>
-      <h1>Custom App !</h1>
-    </div>
-  );
-}
+// function MyApp() {
+//   return (
+//     <div>
+//       <h1>Custom App !</h1>
+//     </div>
+//   );
+// }
 
 // const ReactElement = {
 //   type: "a",
@@ -21,11 +21,11 @@ function MyApp() {
 // };
 
 const anotherUser = "chai aur react";
-const anotherElement = (
-  <a href="https://www.google.com" target="_blank">
-    Visit Google
-  </a>
-);
+// const anotherElement = (
+//   <a href="https://www.google.com" target="_blank">
+//     Visit Google
+//   </a>
+// );
 
 const ReactElement = React.createElement(
   "a",
